@@ -14,4 +14,19 @@
         double	    Double
         boolean	    Boolean
 ### Note. Wraparound Simply means overflow or underflow
-Long Value Denotation For Readability ex long num = 100L or 100l its also compulsory when assginin  numeric literal larger than Intger max;
+    Long Value Denotation For Readability ex long num = 100L or 100l its also compulsory when assginin  numeric literal larger than Intger max;
+
+
+    casting Hieracrcy 
+    byte->short->int->float->double reverse is not possible without casting
+    defualt ->int & double (remeber to cast when assigning more precise value to float like
+    float myFloat = 4.34; ->error;
+    correct way:
+    float myFloat = (float)4.56;
+    or 
+    float myFloat = 4.56f;
+    )
+
+
+    BigDecimal ->> when accurate precision is needed
+    StringBuilder ->> when string needs to be mutable (as defualt string is immutable it creates new string whenever we append something to it)
