@@ -1,8 +1,8 @@
-## Wrapper Class -->
-    Java Uses Simple Wraper Class Store Information About Its Basic Primitive Data Type Like Int and String Etc Which Can't   be Store inside the primitive data type itself it includes simple operation and basic Values like below
+## Wrapper Class
+    Java Uses Simple Wraper Class Store Information About Its Basic Primitive Data Type Like Int and String Etc Which Can't be Store inside the primitive data type itself it includes simple operation and basic Values like below
     Integer
     Eg. int integerMinimum = Integer.MIN_VALUE;
-    (There are some values which we can retrive from Wrapper Class like Integer Which Stores MIN_VALUE)
+    (There are some values which we can retrive from Wrapper Class like Integer Which Stores MIN_VALUE   ,SIZE)
 
         Primitive	Wrapper Class
         byte	    Byte
@@ -13,3 +13,5 @@
         float	    Float
         double	    Double
         boolean	    Boolean
+### Note. Wraparound Simply means overflow or underflow
+Long Value Denotation For Readability ex long num = 100L or 100l its also compulsory when assginin  numeric literal larger than Intger max;
