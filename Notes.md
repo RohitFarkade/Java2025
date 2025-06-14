@@ -30,3 +30,6 @@
 
     BigDecimal ->> when accurate precision is needed
     StringBuilder ->> when string needs to be mutable (as defualt string is immutable it creates new string whenever we append something to it)
+
+    empty string literal ""
+    used when concatenating two chars
